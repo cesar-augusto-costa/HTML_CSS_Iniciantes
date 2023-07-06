@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+</head>
+<body style="font-size: 20px;">
+    <h1>FORMULÁRIO</h1>
+    <form action="" method="post" enctype="multipart/form-data">
+        <p>
+            Nome: <input type="text" name="nome">
+            Sobrenome: <input type="text" name="sobrenome">    
+        </p>
+        Sexo: 
+        <input type="radio" name="opcoes" value="M" checked> M
+        <input type="radio" name="opcoes" value="F"> F
+        <br>
+        <fieldset>
+            <legend>Desenvolvimento</legend>
+            <p>
+                Tecnologias: 
+                <label for="">
+                    <input type="checkbox" name="technology" value="HTML"> HTML
+                </label>
+                <label for="">
+                    <input type="checkbox" name="technology" value="CSS"> CSS
+                </label>
+                <label for="">
+                    <input type="checkbox" name="technology" value="JavaScript"> JavaScript
+                </label>
+                <label for="">
+                    <input type="checkbox" name="technology" value="JQuery"> JQuery
+                </label>
+                <select name="dev" style="font-size: 20px;">
+                    <option value="" selected>Selecione uma opção: </option>
+                    <option value="Front">Front</option>
+                    <option value="Back">Back</option>
+                    <option value="Full Stack">Full Stack</option>
+                </select>
+    
+                <select name="">
+                    <optgroup label="Desenvolvimento">
+                        <option value="HTML">HTML</option>
+                        <option value="CSS">CSS</option>
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="JQuery">JQuery</option>
+                    </optgroup>
+                    <optgroup label="Programação">
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="PHP">PHP</option>
+                        <option value="Java">Java</option>
+                    </optgroup>
+                </select>
+            </p>
+        </fieldset>
+        <p>
+            Mensagem:<br>
+            <textarea name="msg" cols="30" rows="10" maxlength="250">
+                Descreva sobre seus soft skills e resultados.
+            </textarea>
+        </p>
+        
+        <input type="reset" name="limpar" value="Limpar">
+        <input type="submit" name="enviar" value="Enviar">
+    </form>
+</body>
+</html>

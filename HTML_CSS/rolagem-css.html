@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Rolagem CSS</title>
+        <style>
+            div{
+                height: 100px;
+                width: 250px;
+                padding: 10px;
+                font: 16px Arial, sans-serif;
+                border: 4px solid #ccc;
+            }
+            .caixa-auto{
+                overflow: auto;
+            }
+            .caixa-x{
+                overflow: hidden;
+                overflow-x: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="caixa-auto">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi repudiandae incidunt, minus corrupti maiores qui suscipit eveniet reprehenderit officiis facilis, sapiente laboriosam neque quae! Doloribus dolorum et quaerat commodi recusandae.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nostrum dolor similique magnam, necessitatibus a optio, quidem qui, officia cum quos saepe facere! Qui exercitationem minima laudantium perspiciatis maiores aut?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid odio impedit in ratione dolores quibusdam illo voluptatibus asperiores perspiciatis adipisci quae aliquam fuga explicabo, molestias esse. Perferendis ipsum amet dolorum!
+        </div>
+        <br>
+        <div class="caixa-x">
+            <p style="width: 700px;">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi repudiandae incidunt, minus corrupti maiores qui suscipit eveniet reprehenderit officiis facilis, sapiente laboriosam neque quae! Doloribus dolorum et quaerat commodi recusandae.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nostrum dolor similique magnam, necessitatibus a optio, quidem qui, officia cum quos saepe facere! Qui exercitationem minima laudantium perspiciatis maiores aut?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid odio impedit in ratione dolores quibusdam illo voluptatibus asperiores perspiciatis adipisci quae aliquam fuga explicabo, molestias esse. Perferendis ipsum amet dolorum!    
+            </p>
+        </div>
+    </body>
+</html>

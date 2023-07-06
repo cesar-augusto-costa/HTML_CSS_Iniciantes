@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    width: 100%;
+    float: left;
+    margin-bottom: 30px;
+}
+.row div{
+    background-color: brown;
+    height: 80px;
+    float: left;
+}
+/* Linha 1 */
+.linha1 .col {
+    width: 100%;
+}
+/* Linha 2 */
+.linha2 .col{
+    width: 48%;
+}
+.linha2 .col:last-child{
+    float: right;
+}
+/* Linha 3 */
+.linha3 .col{
+    width: 30.6666%;
+    margin-right: 4%;
+}
+.linha3 .col:last-child{
+    margin-right: 0;
+}
+/* Linha 4 */
+.linha4 .col{
+    width: 22%;
+    margin-right: 4%;
+}
+.linha4 .col:last-child{
+    margin-right: 0;
+}
+/* Linha 5 */
+.linha5 .col{
+    width: 16.8%;
+    margin-right: 4%;
+}
+.linha5 .col:last-child{
+    margin-right: 0;
+}
+/* Linha 6 */
+.linha6 .col{
+    width: 13.3333%;
+    margin-right: 4%;
+}
+.linha6 .col:last-child{
+    margin-right: 0;
+}
+/* Linha 7 */
+.linha7 .col{
+    width: 10.8571%;
+    margin-right: 4%;
+}
+.linha7 .col:last-child{
+    margin-right: 0;
+}
